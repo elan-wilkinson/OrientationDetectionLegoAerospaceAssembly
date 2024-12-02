@@ -1,6 +1,6 @@
 # Orientation Detection of Lego Aerospace Assembly
 
-## Team 8 AAI-511: Neural Networks and Deep Learning
+## Team 8 AAI-521: Applied Computer Vision for AI
 
 **Project Title:** Predicting the Composer from Music Audio Files
 
