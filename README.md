@@ -8,7 +8,7 @@
 
 ## Project Intro/Objective
 
-The detection of orientation of pieces of an assembly is a crucial task for manufacturing and both human and robotic building tasks. If the placement of a camera is known relative to an environment, person, larger structure the piece is being mounted to, or another piece, the orientation data becomes meaningful, and can be contextualized as being in the correct or incorrect orientation relative to the camera and other known parts. This task has broad applications to aerospace engineering, vehicle manufacture, industrial environments, assembly of medical devices and others. As the proprietary and specific nature of the parts in these domains can make them difficult to source, placeholder representations of these were used in the form of LEGO shuttle partially assembled pieces.
+The detection of orientation of pieces of an assembly is a crucial task for manufacturing and both human and robotic building and inspection tasks. If the placement of a camera is known relative to an environment, person, larger structure the piece is being mounted to, or another piece, the orientation data becomes meaningful, and can be contextualized as being in the correct or incorrect orientation relative to the camera and other known parts. This task has broad applications to aerospace engineering, vehicle manufacture, industrial environments, assembly of medical devices and others. As the proprietary and specific nature of the parts in these domains can make them difficult to source, placeholder representations of these were used in the form of LEGO shuttle partially assembled pieces.
 
 ## Contributors
 
