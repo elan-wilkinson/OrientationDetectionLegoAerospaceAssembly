@@ -1,16 +1,14 @@
-# Orientation Detection of Lego Aerospace Assembly
+# Position and Orientation Detection of LEGO Shuttle Assembly
 
 ## Team 8 AAI-521: Applied Computer Vision for AI
 
-**Project Title:** Position and Orientation Detection of Lego Shuttle Assembly
+**Project Title:** Position and Orientation Detection of LEGO Shuttle Assembly
 
 **Project Status:** Active
 
 ## Project Intro/Objective
 
-Music is a form of art that is ubiquitous and has a rich history. Different composers have created music with their unique styles and compositions. However, identifying the composer of a particular piece of music can be a challenging task, especially for novice musicians or listeners. The proposed project aims to use deep learning techniques to identify the composer of a given piece of music accurately.
-
-The primary objective of this project is to develop a deep learning model that can predict the composer of a given musical score accurately. The project aims to accomplish this objective by using two deep learning techniques: Long Short-Term Memory (LSTM) and Convolutional Neural Network (CNN). Classification will be performed for .mid files for four composers; Bach, Beethoven, Chopin, and Mozart.
+The detection of orientation of pieces of an assembly is a crucial task for manufacturing and both human and robotic building tasks. If the placement of a camera is known relative to an environment, person, larger structure the piece is being mounted to, or another piece, the orientation data becomes meaningful, and can be contextualized as being in the correct or incorrect orientation relative to the camera and other known parts. This task has broad applications to aerospace engineering, vehicle manufacture, industrial environments, assembly of medical devices and others. As the proprietary and specific nature of the parts in these domains can make them difficult to source, placeholder representations of these were used in the form of LEGO shuttle partially assembled pieces.
 
 ## Contributors
 
