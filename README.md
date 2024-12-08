@@ -12,9 +12,9 @@ The detection of orientation of pieces of an assembly is a crucial task for manu
 
 ## Contributors
 
-- **Pallav Kamojjhala**
-- **Elan Wilkinson**
 - **Ahmad Milad**
+- **Elan Wilkinson**
+- **Pallaj Kamojjhala**
 
 ## Methods Used
 
@@ -22,30 +22,38 @@ The detection of orientation of pieces of an assembly is a crucial task for manu
 - Synthetic Data Generation
 - Randomization
 - Data Annotation
-- Train Test Split
-- Model Training
-- Data Normalization
-- Transfer Learning
-- Bounding Boxes
 - Data Preprocessing
+- Train Test Split
+- Transfer Learning
+- Model Training
+- Two-stage Model
+- Bounding Boxes
 - Cropping
-- Gradient Clipping
+- Residual Neural Network
 - Metrics
+- Live Data Integration
 
 ## Technologies
 
 - **Programming Language:** Python
-- **Libraries:** 
+- ** Models and Libraries:** 
   - transformers
-  - torchnn
+  - PIL
+  - OpenCV
+  - PyTorch
   - YOLOv5
   - OpenCV detractraction
   - WandDB
-  - CNN
   - FASTER RCNN
-  
-## Project Descriptio
+  - ResNet
+- ** Applications:**
+  - Scaniverse
+  - Blender
+  - Unity3D
 
-A 3-dimension model was captured of the LEGO shuttle parts by iPhone 13 mini using Gaussian splatting using the application Scaniverse. The texture and model was then cleaned up in the 3D content tool Blender and then taken in the real time 3D visualization and game engine tool Unity 3D using the Perception package for synthetic data generation. This synthetic data was used to train a two-stage architecure, consisting of a first half that determines the bounding box of the object within the image and then passes a cropped image to the second half, a residual neural network model that leverages pretraining to learn features to determine an orientation in Euler degrees.  This approach is trained entirely on synthetic data but tested on real world data captured with iPhones and webcams with relatively high accuracy, and was chosen for its scalability in training models for other parts in a stream-lined approach.
+  
+## Project Description
+
+A 3-dimension model was captured of the LEGO shuttle parts by iPhone 13 mini using Gaussian splatting using the application Scaniverse. The texture and model was then cleaned up in the 3D content tool Blender and then taken in the real time 3D visualization and game engine tool Unity 3D using the Perception package for synthetic data generation. This synthetic data was used to train a two-stage architecure, consisting of a first half that determines the bounding box of the object within the image and then passes a cropped image to the second half, a residual neural network model that leverages pretraining to learn features to determine an orientation in Euler degrees.  This approach is trained entirely on synthetic data but tested on real world data captured with iPhones and webcams with relatively high accuracy, and was chosen for its scalability in training models for other parts in a stream-lined approach. After validating the models on static real world data, the models were then tested in a live context from streamed camera data with high accuracy and performance that demonstrated confident capability for use in live applications.
 
 Our thanks and appreciation go to our professor **Siamak Aram**.
