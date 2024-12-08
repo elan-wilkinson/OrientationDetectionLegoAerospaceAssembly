@@ -36,7 +36,7 @@ The detection of orientation of pieces of an assembly is a crucial task for manu
 ## Technologies
 
 - **Programming Language:** Python
-- ** Models and Libraries:** 
+- **Models and Libraries:** 
   - transformers
   - PIL
   - OpenCV
@@ -46,7 +46,7 @@ The detection of orientation of pieces of an assembly is a crucial task for manu
   - WandDB
   - FASTER RCNN
   - ResNet
-- ** Applications:**
+- **Applications:**
   - Scaniverse
   - Blender
   - Unity3D
