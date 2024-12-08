@@ -18,22 +18,32 @@ The detection of orientation of pieces of an assembly is a crucial task for manu
 
 ## Methods Used
 
-- Data Cleaning, Preparation, and Preprocessing
-- Long Short-Term Memory
-- Convolutional Neural Networks
-- Classification
-- Deep Learning
+- Data Capture
+- Synthetic Data Generation
+- Data Annotation
+- Train Test Split
+- Model Training
+- Rancomization
+- Data Normalization
+- Transfer Learning
+- Bounding Boxes
+- Data Preprocessing
+- Cropping
+- Gradient Clipping
+- Metrics
 
 ## Technologies
 
 - **Programming Language:** Python
 - **Libraries:** 
-  - Pretty_Midi
-  - Music21
-  - Matplotlib
-  - Tensorflow
-  - Keras
-
+  - transformers
+  - torchnn
+  - YOLOv5
+  - OpenCV detractraction
+  - WandDB
+  - CNN
+  - FASTER RCNN
+  
 ## Project Description
 
 Data was preprocessed into notes by instrument as well as the average of notes on a 10 frames per second interval. Overrepresented classes were undersampled, and sequence lengths were padded and clipped to create a homogenous data shape for processing. Input data was subsequently fed into separate LSTM and CNN models, and further evaluation and hyperparameter tuning was performed in the pursuit of optimal correct classification of the composer giving a piece of music stored in a .mid file.
