@@ -20,10 +20,10 @@ The detection of orientation of pieces of an assembly is a crucial task for manu
 
 - Data Capture
 - Synthetic Data Generation
+- Randomization
 - Data Annotation
 - Train Test Split
 - Model Training
-- Rancomization
 - Data Normalization
 - Transfer Learning
 - Bounding Boxes
@@ -44,9 +44,8 @@ The detection of orientation of pieces of an assembly is a crucial task for manu
   - CNN
   - FASTER RCNN
   
-## Project Description
+## Project Descriptio
 
-Data was preprocessed into notes by instrument as well as the average of notes on a 10 frames per second interval. Overrepresented classes were undersampled, and sequence lengths were padded and clipped to create a homogenous data shape for processing. Input data was subsequently fed into separate LSTM and CNN models, and further evaluation and hyperparameter tuning was performed in the pursuit of optimal correct classification of the composer giving a piece of music stored in a .mid file.
-## Acknowledgments
+A 3-dimension model was captured of the LEGO shuttle parts by iPhone 13 mini using Gaussian splatting using the application Scaniverse. The texture and model was then cleaned up in the 3D content tool Blender and then taken in the real time 3D visualization and game engine tool Unity 3D using the Perception package for synthetic data generation. This synthetic data was used to train a two-stage architecure, consisting of a first half that determines the bounding box of the object within the image and then passes a cropped image to the second half, a residual neural network model that leverages pretraining to learn features to determine an orientation in Euler degrees.  This approach is trained entirely on synthetic data but tested on real world data captured with iPhones and webcams with relatively high accuracy, and was chosen for its scalability in training models for other parts in a stream-lined approach.
 
 Our thanks and appreciation go to our professor **Siamak Aram**.
