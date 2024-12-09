@@ -54,7 +54,11 @@ The detection of orientation of pieces of an assembly is a crucial task for manu
 ## Video Sample
   
 
-https://github.com/user-attachments/assets/43b66cd2-53b1-48c0-86ef-15c5c899971b
+![output2](https://github.com/user-attachments/assets/91a1fd85-9688-477a-8daa-a329a33a2c7e)
+
+
+
+
 
 
 
