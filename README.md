@@ -14,7 +14,7 @@ The detection of orientation of pieces of an assembly is a crucial task for manu
 
 - **Ahmad Milad**
 - **Elan Wilkinson**
-- **Pallaj Kamojjhala**
+- **Pallav Kamojjhala**
 
 ## Methods Used
 
@@ -50,6 +50,13 @@ The detection of orientation of pieces of an assembly is a crucial task for manu
   - Scaniverse
   - Blender
   - Unity3D
+
+## Video Sample
+  
+
+https://github.com/user-attachments/assets/43b66cd2-53b1-48c0-86ef-15c5c899971b
+
+
 
   
 ## Project Description
